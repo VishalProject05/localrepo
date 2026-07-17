@@ -1,1 +1,0 @@
-<h4>&copy;Reserved By Vishal Kumar Kushwaha</h4>
