@@ -1,1 +1,0 @@
-<h2>Daily Expense Tracking System (Welcome <?php echo $_SESSION['name']; ?>)</h2>
