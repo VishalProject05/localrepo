@@ -39,7 +39,7 @@
                         if($_FILES['txtfile']['error'] == 0 ){
                             if($_FILES['txtfile']['type']=='image/jpeg' || $_FILES['txtfile']['type']=='image/png' || $_FILES['txtfile']['type']=='image/jpg' || $_FILES['txtfile']['type']=='image/webp'){
                                     $from = $_FILES['txtfile']['tmp_name'];
-                                    $to = $_SERVER['DOCUMENT_ROOT']."/Dets/picture/".$_FILES['txtfile']['name'];
+                                    $to = $_SERVER['DOCUMENT_ROOT']."/Project/picture/".$_FILES['txtfile']['name'];
                                     if(move_uploaded_file($from, $to)){
                                         $_SESSION['pic'] = "picture/".$_FILES['txtfile']['name'];
                                         echo "<p class='text-success'>Picture Uploaded</p>";
